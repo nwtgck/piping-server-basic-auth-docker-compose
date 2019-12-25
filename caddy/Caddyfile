@@ -1,4 +1,7 @@
 0.0.0.0:80 {
+  # Basic Authentication
+  basicauth / user1 1234
+  
   proxy / piping:80 {
     header_upstream Host {host}
   }
