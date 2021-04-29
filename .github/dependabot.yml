@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: docker
+  directory: "/caddy/caddy"
+  schedule:
+    interval: daily
+    timezone: Asia/Tokyo
+  open-pull-requests-limit: 99
+  reviewers:
+  - nwtgck
+  assignees:
+  - nwtgck
+  ignore:
+  - dependency-name: alpine
+    versions:
+    - 3.13.0
+    - 3.13.1
+    - 3.13.2
+    - 3.13.3
+    - 3.13.4
