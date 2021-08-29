@@ -1,0 +1,12 @@
+version: 2
+updates:
+- package-ecosystem: docker
+  directory: "/caddy/caddy"
+  schedule:
+    interval: daily
+    timezone: Asia/Tokyo
+  open-pull-requests-limit: 99
+  reviewers:
+  - nwtgck
+  assignees:
+  - nwtgck
