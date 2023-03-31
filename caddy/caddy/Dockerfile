@@ -1,4 +1,4 @@
-FROM alpine:3.12.0
+FROM alpine:3.17.3
 
 LABEL maintainer="Ryo Ota <nwtgck@nwtgck.org>"
 
